@@ -1,14 +1,11 @@
 {
   "Вступ": [
-    {"date": "1", "definition": "fjdslfjksdfjskl"},
-    {"date": "2", "definition": "jjjjjjjj"},
-    {"date": "3", "definition": "fjdslfjksdfjskl"},
-    {"date": "4", "definition": "fjdslfjksdfjskl"},
-    {"date": "5c - 6", "definition": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at. Libero nunc consequat interdum varius."},
-    {"date": "5c-6", "definition": "fjdslfjksdfjskl"},
-    {"date": "5c-6", "definition": "fjdslfjksdfjskl"},
-    {"date": "5c-6", "definition": "fjdslfjksdfjskl"},
-    {"date": "988", "definition": "Хрещення Русі"}
+    {"date": "до V ст", "definition": "Стародавня історія"},
+    {"date": "V - XV ст", "definition": "Середньовіччя "},
+    {"date": "XVI - XVIII ст", "definition": " Ранньомодерний або Ранній новий час"},
+    {"date": "XX - XXI ст", "definition": " Новітня історія"},
+    {"date": "XIX ст", "definition": "Модерний або Новий час"}
+
   ],
   "Стародавня Історія": [
     {"date": "5c-7", "definition": "fjdslfjksdfjskl"},
