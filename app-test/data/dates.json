@@ -1,18 +1,18 @@
 {
   "Вступ": [
-    {"date": "до V ст", "definition": "Стародавня історія"},
-    {"date": "V - XV ст", "definition": "Середньовіччя "},
-    {"date": "XVI - XVIII ст", "definition": " Ранньомодерний або Ранній новий час"},
-    {"date": "XX - XXI ст", "definition": " Новітня історія"},
-    {"date": "XIX ст", "definition": "Модерний або Новий час"}
+    {"value": "до V ст", "definition": "Стародавня історія"},
+    {"value": "V - XV ст", "definition": "Середньовіччя "},
+    {"value": "XVI - XVIII ст", "definition": " Ранньомодерний або Ранній новий час"},
+    {"value": "XX - XXI ст", "definition": " Новітня історія"},
+    {"value": "XIX ст", "definition": "Модерний або Новий час"}
 
   ],
   "Стародавня Історія": [
-    {"date": "5c-7", "definition": "fjdslfjksdfjskl"},
-    {"date": "944", "definition": "fjdsfdsfsdfsdlfjksdfjskl"}
+    {"value": "5c-7", "definition": "fjdslfjksdfjskl"},
+    {"value": "944", "definition": "fjdsfdsfsdfsdlfjksdfjskl"}
   ],
   "Русь-Україна(Київська держава)": [
-    {"date": "5c-7", "definition": "fjdslfjksdfjskl"},
-    {"date": "944", "definition": "fjdsfdsfsdfsdlfjksdfjskl"}
+    {"value": "5c-7", "definition": "fjdslfjksdfjskl"},
+    {"value": "944", "definition": "fjdsfdsfsdfsdlfjksdfjskl"}
   ]
 }
