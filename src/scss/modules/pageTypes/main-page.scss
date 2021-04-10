@@ -1,0 +1,33 @@
+.main-page {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+    &__inner{
+      justify-content: space-between;
+    }
+    &__title {
+      margin-left: 10px;
+    }
+    &__menu {
+      display: flex;
+      flex-direction: column;
+    }
+    &__menu-item {
+      @extend %Oswald-bold;
+      font-size: 28px;
+      line-height: 40px;
+      color: rgba($light-text , 0.37);
+      transition: all $animspeed;
+      & + li{
+        margin-top: 5px;
+      }
+      &:hover{
+        color: $light-text;
+        cursor: pointer;
+      }
+    }
+    &__footer {
+      position: relative;
+    }
+}
