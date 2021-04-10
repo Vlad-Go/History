@@ -1,0 +1,18 @@
+{
+  "Вступ": [
+    {"value": "до V ст", "definition": "Стародавня історія"},
+    {"value": "V - XV ст", "definition": "Середньовіччя "},
+    {"value": "XVI - XVIII ст", "definition": " Ранньомодерний або Ранній новий час"},
+    {"value": "XX - XXI ст", "definition": " Новітня історія"},
+    {"value": "XIX ст", "definition": "Модерний або Новий час"}
+
+  ],
+  "Стародавня Історія": [
+    {"value": "5c-7", "definition": "fjdslfjksdfjskl"},
+    {"value": "944", "definition": "fjdsfdsfsdfsdlfjksdfjskl"}
+  ],
+  "Русь-Україна(Київська держава)": [
+    {"value": "5c-7", "definition": "fjdslfjksdfjskl"},
+    {"value": "944", "definition": "fjdsfdsfsdfsdlfjksdfjskl"}
+  ]
+}
