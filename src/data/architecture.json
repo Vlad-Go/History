@@ -1,0 +1,29 @@
+{
+  "1670": [
+    {"item": "2",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio explicabo iure delectus nam quod quae molestias sapiente voluptatibus placeat ipsum veniam ad libero impedit quam velit praesentium, fuga dicta iste.",
+      "images": ["https://naurok-test2.nyc3.digitaloceanspaces.com/uploads/test/636344/564324/251676_1602850007.jpg", "https://static.tildacdn.com/tild6530-3338-4565-b037-363534376136/tl3-04.png"]
+    },
+    {"item": "1",
+     "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio explicabo iure delectus nam quod quae molestias sapiente voluptatibus placeat ipsum veniam ad libero impedit quam velit praesentium, fuga dicta iste.",
+     "images": ["https://o.quizlet.com/fRr-v.JOi-mxEOEMvIcrmQ.jpg"]
+    },
+    
+    {"item": "3",
+      "info": "adipisicing elit. Distinctio explicabo iure delectus nam quod quae molestias sapiente voluptatibus placeat ipsum veniam ad libero impedit quam velit praesentium, fuga dicta iste.",
+      "images": ["https://o.quizlet.com/fRr-v.JOi-mxEOEMvIcrmQ.jpg"]
+    }
+  ],
+  "Стародавня Історія": [
+    {"item": "3",
+      "info": "adipisicing elit. Distinctio explicabo iure delectus nam quod quae molestias sapiente voluptatibus placeat ipsum veniam ad libero impedit quam velit praesentium, fuga dicta iste.",
+      "images": ["https://o.quizlet.com/fRr-v.JOi-mxEOEMvIcrmQ.jpg"]
+    }
+  ],
+  "Русь-Україна(Київська держава)": [
+    {"item": "2",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio explicabo iure delectus nam quod quae molestias sapiente voluptatibus placeat ipsum veniam ad libero impedit quam velit praesentium, fuga dicta iste.",
+      "images": ["https://naurok-test2.nyc3.digitaloceanspaces.com/uploads/test/636344/564324/251676_1602850007.jpg", "https://static.tildacdn.com/tild6530-3338-4565-b037-363534376136/tl3-04.png"]
+    }
+  ]
+}
