@@ -1,0 +1,49 @@
+.text-page {
+   &__content {
+   width: 100%;
+   padding-left: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   overflow-y: auto;
+   overflow-x: hidden;
+   height: 54vh;
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: 0;  /* Firefox */
+   &::-webkit-scrollbar {
+     width: 0;
+   }
+   }
+
+
+}
+.content {
+   &__title {
+   @extend %Oswald-semi;
+   width: 100%;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   font-size: 35px;
+   line-height: 40px;
+   text-align: left;
+   }
+   &__item {
+   padding-top: 20px;
+   font-size: 20px;
+   line-height: 25px;
+   min-height: min-content;
+   display: flex;
+   width: 100%;
+   }
+   &__item-year {
+   @extend %Roboto-medium;
+   color: $third-color;
+   margin-right: 3px;
+   text-align: left;
+
+   }
+   &__item-definition {
+   @extend %Roboto-regular;
+   margin-left: 10px;
+   }
+}
