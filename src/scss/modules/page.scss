@@ -1,0 +1,117 @@
+.page {
+  background: $main-gradient;
+  height: 100%;
+  &__inner{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 40px);
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__body {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__topics{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: 0;  /* Firefox */
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+  &__topics-item {
+    @extend %Oswald-semi;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba($light-text , 0.37);
+    cursor: pointer;
+    padding: 0 10px;
+    transition: all $animspeed;
+    &:hover{
+      color: $light-text;
+    }
+    &.done{
+      color: $light-text;
+     }
+     &.active{
+      color: $third-color;
+    }
+  }
+  &__progress {
+    margin: 5px;
+    max-width: 275px;
+    width: 100%;
+  }
+  &__controler {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: $black;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.footer__btn{
+  @extend %Roboto-medium;
+  font-size: 13px;
+  line-height: 15px;
+  color: $dark-text;
+  background-color: transparent;
+  padding: 0 20px;
+  transition: all $animspeed;
+  cursor: pointer;
+  &:hover{
+    color: $light-text;
+  }
+}
+
+.controler{
+  &__btn{
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    transition: all $animspeed;
+    cursor: pointer;
+    &:hover{
+      color: $light-text;
+    }
+    &:nth-child(1){
+      background-image: url("../img/arrow.svg");
+      transform: rotate(180deg);
+    }
+    &:nth-child(3){
+      background-image: url("../img/arrow.svg");
+    }
+  }
+  &__title{
+    display: block;
+    margin: 0 15px;
+    font-size: 14px;
+    line-height: 16px;
+    @extend %Roboto-regular;
+  }
+}

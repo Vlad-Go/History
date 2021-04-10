@@ -1,0 +1,22 @@
+.settings {
+  &__body {
+    width: 100%;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  &__item {
+    margin-top: 35px;
+    @extend %Roboto-thin;
+    font-size: 36px;
+    line-height: 42px;
+    transition: all $animspeed;
+    cursor: pointer;
+    &:hover{
+      color: rgba($light-text, $alpha: .5);
+    }
+  }
+}
