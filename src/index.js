@@ -1,29 +1,17 @@
-import './scss/style.scss';
-import {App} from './App';
-import {Main} from './components/Main/Main';
-import {Test} from './components/Test/Test';
-import {Dates} from './components/Dates/Dates';
-import {Monuments} from './components/Monuments/Monuments';
-import {getNode} from './components/functions';
-import {Definitions} from './components/Definitions/Definitions';
-import {Personalities} from './components/Personalities/Personalities';
-import {Arts} from './components/Arts/Arts';
-import {Maps} from './components/Maps/Maps';
-import {Architecture} from './components/Architecture/Architecture';
-// Components -->
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-// ----------- || ----- || ------------
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-const $root = getNode('.app');
-
-new App([
-  {component: Main, hash: 'home'},
-  {component: Dates, hash: 'dates'},
-  {component: Definitions, hash: 'definitions'},
-  {component: Architecture, hash: 'architecture'},
-  {component: Arts, hash: 'arts'},
-  {component: Maps, hash: 'maps'},
-  {component: Personalities, hash: 'personalities'},
-  {component: Monuments, hash: 'monuments'},
-  {component: Test, hash: 'test'}
-], $root).route();
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
