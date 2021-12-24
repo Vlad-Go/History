@@ -1,0 +1,19 @@
+@import '../../node_modules/normalize.css/normalize.css';
+@import './reset';
+@import './vars';
+@import './global';
+
+@import './navigation/navigation.scss';
+@import './progressbar/progressbar.scss';
+@import './picker/picker.scss';
+
+
+@import './home_page/home_page.scss';
+@import './topics_page/topics_page.scss';
+@import './learn_pages/learn-img_pages.scss';
+@import './learn_pages/learn_page.scss';
+@import './test-creation_page/test-creation_page.scss';
+@import './test_page/test_page.scss';
+@import './result_page/result_page.scss';
+@import './stage_page/stage_page.scss';
+@import './modal/modal.scss';

@@ -1,0 +1,70 @@
+$accent1: #000;
+$accent2: #FFF;
+
+$bg: #1A1A1A;
+
+$gradient: conic-gradient(from -45deg at 50% 50%, #B2EB98 0deg, #FBDD6F 103.13deg, #FEA876 163.12deg, #FEA377 221.25deg, #FBDD6F 286.87deg, #B2EB98 360deg);
+
+$green: #B2EB98;
+$red: #FEA377;
+$yellow: #FBDD6F;
+
+$right: #596C5D;
+$wrong: #E36161;
+// -----------
+$speed: 300ms;
+// ------------
+$navbar_padding: 60px;
+// ------------
+%rubik-400{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+%rubik-300{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+%ubuntu-700{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+%ubuntu-500{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+%ubuntu-400{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+%ubuntu-300{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+// --------------
+%horizontalCenter{
+  left: 50%;
+  transform: translateX(-50%);
+}
+%verticalCenter{
+  top: 50%;
+  transform: translateY(-50%);
+}
+%center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%hide_scroll{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: 0;  /* Firefox */
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}

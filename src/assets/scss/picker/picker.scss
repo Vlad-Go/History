@@ -1,0 +1,29 @@
+.picker {
+  width: 100%;
+  background-color: $accent1;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  display: flex;
+  padding: 3px 5px;
+  @extend %hide_scroll;
+  &::-webkit-scrollbar {
+    display: none;
+ }
+  &__item {
+    margin: 0 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    @extend %ubuntu-700;
+    padding: 4px 30px;
+    &.active{
+      color: $accent1;
+      background: $gradient;
+    }
+    &:hover:not(.active){
+      color: $accent1;
+      background: $accent2;
+    }
+  }
+}

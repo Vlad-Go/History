@@ -1,0 +1,71 @@
+body {
+  @extend %ubuntu-400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: $accent2;
+  background-color: $bg;
+  position: relative;
+  overflow: hidden;
+
+}
+.app{
+  &__inner {
+    height: 100vh;
+    padding-top: 55px;
+    padding-bottom: $navbar_padding;
+  }
+}
+.container {
+  margin: 0 auto;
+  padding:  0 15px;
+  max-width: 320px;
+}
+.title{
+  @extend %rubik-400;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+.suptitle{
+  @extend %rubik-400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0em;
+}
+
+.btn, .svg-btn{
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.svg-btn{
+  svg{
+    width: 100%;
+    height: 100%;
+  }
+  foreignObject{
+    width: 100%;
+    height: 100%;
+    @extend %center;
+  }
+  div{
+    width: 100%;
+    height: 100%;
+    background-color: $accent2;
+    transition: all $speed;
+  }
+  &:hover div{
+    background: $gradient;
+  }
+  &.active div{
+    background: $gradient;
+  }
+}
