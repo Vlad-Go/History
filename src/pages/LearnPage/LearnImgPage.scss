@@ -1,0 +1,48 @@
+@import '../../styles/vars';
+.learn-page {
+  &__field{
+    background-image: url('.././/../img/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px 50px 0px 0px;
+    .img-statement, .info-btn  {
+      padding: 6px 5px;
+      position: absolute;
+      background-color: $accent1;
+      border-radius: 8px;
+      top: 20px;
+    }
+    .img-statement{
+      left: 25px;
+    }
+    .info-btn {
+      right: 25px;
+    }
+    
+    .counters{
+      width: 290px;
+      position: absolute;
+      bottom: 95px;
+      @extend %horizontalCenter;
+      .counter, .repeat-counter {
+        @extend %rubik-400;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        padding: 6px 5px;
+        position: absolute;
+        background-color: $accent1;
+        border-radius: 8px;
+      }
+      .counter{
+        @extend %horizontalCenter;
+    
+      }
+      .repeat-counter {
+        right: 0;
+      }
+    }
+  }
+}
+
+

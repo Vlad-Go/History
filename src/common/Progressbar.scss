@@ -1,0 +1,44 @@
+@import '../styles/vars';
+.progressbar {
+  min-width: 290px;
+  width: 80%;
+  position: relative;
+  padding-bottom: 20px;
+  .bar {
+    position: relative;
+    height: 12px;
+    border-radius: 9px;
+    background-color: $accent1;
+  }
+  .progress {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 20%;
+    background: $gradient;
+    border-radius: 9px;
+  }
+  .current, .total {
+    position: absolute;
+    right: 5px;
+    @extend %ubuntu-500;
+    font-size: 9px;
+    line-height: 100%;
+    letter-spacing: 0em;
+    bottom: 0;
+  }
+  
+  .percentage {
+    @extend %rubik-300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    position: absolute;
+    right: 20%;
+    transform: translateX(50%);
+    top: 15px;
+  }
+  
+}
+

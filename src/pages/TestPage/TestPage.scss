@@ -1,0 +1,71 @@
+@import '../../styles/vars';
+.test-page {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  &__header {
+    min-width: 290px;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  &__title{}
+  &__type{
+    margin-bottom: 15px;
+  }
+  &__header-bottom {}
+  &__timer {
+    text-align: right;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+  &__field {
+    max-width: 80%;
+    max-height: 50%;
+    overflow: scroll;
+    @extend %hide_scroll;
+    .question {
+      margin-bottom: 55px;
+      text-align: center;
+    }
+    .answers {
+      font-size: 14px;
+      line-height: 16px;
+      &__item {
+        text-align: center;
+        padding: 5px;
+        border-radius: 6px;
+        background-color: $accent1;
+        margin-bottom: 10px;
+        transition: all $speed;
+        cursor: pointer;
+        &:hover{
+          background-color: $accent2;
+          color: $accent1;
+        }
+      }
+    }
+    
+  }
+
+  .counters{
+    width: 100%;
+    position: absolute;
+    bottom: calc(#{$navbar_padding} + 35px);
+    @extend %horizontalCenter;
+    .counter{
+      @extend %horizontalCenter;
+      @extend %rubik-400;
+      font-size: 18px;
+      line-height: 18px;
+      padding: 6px 5px;
+      position: absolute;
+      background-color: $accent1;
+      border-radius: 8px;
+    }
+  }
+}
+
+
+
+

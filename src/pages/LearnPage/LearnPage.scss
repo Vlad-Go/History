@@ -1,0 +1,77 @@
+@import '../../styles/vars';
+.learn-page {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding-bottom: 0;
+  &__header {
+    min-width: 290px;
+  }
+  &__header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__controlbar {
+    display: flex;
+    padding: 3px 10px;
+    border-radius: 8px;
+    background-color: $accent1;
+  }
+
+  &__option {
+    margin: 0 15px;
+  }
+  & .progressbar{
+    margin-top: 15px;
+  }
+  &__field {
+    width: 100%;
+    margin-top: 15px;
+    flex:1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+		&-box {
+      margin-top: -100px;
+		}
+
+		.statement {
+      @extend %ubuntu-500;
+      font-size: 48px;
+      line-height: 55px;
+      letter-spacing: 0em;
+      margin-bottom: 30px;
+		}
+    .definition {
+    }
+
+    .counters{
+      width:290px;
+      position: absolute;
+      bottom: calc(#{$navbar_padding} + 35px);
+      @extend %horizontalCenter;
+      .counter, .repeat-counter {
+        @extend %rubik-400;
+        font-size: 18px;
+        line-height: 18px;
+        padding: 6px 5px;
+        position: absolute;
+        background-color: $accent1;
+        border-radius: 8px;
+      }
+      .counter{
+        @extend %horizontalCenter;
+  
+      }
+      .repeat-counter {
+        right: 0;
+      }
+    }
+
+    
+  }
+
+
+}

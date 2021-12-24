@@ -1,0 +1,43 @@
+@import '../../styles/vars';
+.stage {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  &__title {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  &__list {
+    width: 100%;
+    min-height: 220px;
+    display: flex;
+    justify-content: center;
+
+    & .stage__list-box{
+      height: 100%;
+      flex: 1;
+      padding: 20px;
+      border-radius: 10px;
+      background: $accent1;
+      transition: all $speed;
+      .stage__list-box-item{
+        visibility: hidden;
+      }
+    }
+    & .stage__list-box.active{
+      flex: 4;
+      .stage__list-box-item{
+        visibility:visible;
+      }
+    }
+  }
+  &__active-items {
+    margin-right: 10px;
+  }
+  &__list-box-item {
+    @extend %ubuntu-500;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

@@ -1,0 +1,88 @@
+@import '../../styles/vars';
+.results {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    min-width:  290px;
+    width: 100%;
+  }
+  &__topic{
+    text-align: left;
+    width: 100%;
+  }
+
+  &__controlbar {
+    @extend %center;
+    border-radius: 8px;
+    padding: 3px 10px;
+    background-color: $accent1;
+    fill: $accent2;
+  }
+  &__btn {
+    margin: 0 15px;
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  &__counter {
+    margin-top: 15px;
+  }
+  &__headline {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    &-details{
+      height: 10vh;
+      // display: none; // temp
+      @extend %ubuntu-300;
+    }
+    &-mistakes{
+      height: 20vh;
+    }
+    @extend %hide_scroll;
+  }
+  &__details-item {
+    margin-left: 15px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  &__idicator {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+  }
+  &__details-info {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  &__mistakes-item {
+    margin-left: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    &--img{
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      img{
+        width: 32%;
+      }
+      span{
+        font-size: 20px;
+      }
+    }
+  }
+  
+}
+

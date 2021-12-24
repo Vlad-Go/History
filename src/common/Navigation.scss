@@ -1,0 +1,17 @@
+@import '../styles/vars';
+
+.navigation {
+  max-width: 330px;
+  width: 100%;
+  background-color: $accent1;
+  padding: 10px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  border-radius: 43px;
+  @extend %horizontalCenter;
+  &__item {
+  }
+}
